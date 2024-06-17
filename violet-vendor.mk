@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/violet/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/violet/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
     vendor/xiaomi/violet/proprietary/vendor/firmware/tas2563_uCDSP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas2563_uCDSP.bin \
+    vendor/xiaomi/violet/proprietary/vendor/lib/rfsa/adsp/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/dirac_resource.dar \
     vendor/xiaomi/violet/proprietary/vendor/lib64/camera/com.qti.sensormodule.altek1_imx577.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.altek1_imx577.bin \
     vendor/xiaomi/violet/proprietary/vendor/lib64/camera/com.qti.sensormodule.altek2_imx577.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.altek2_imx577.bin \
     vendor/xiaomi/violet/proprietary/vendor/lib64/camera/com.qti.sensormodule.altek_imx577.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.altek_imx577.bin \
@@ -330,6 +331,26 @@ PRODUCT_PACKAGES += \
     libvendor.goodix.hardware.interfaces.biometrics.fingerprint@2.1 \
     libvidhance \
     sensors.ssc \
+    capi_v2_aptX_CLHDAD_Encoder \
+    libVC1Dec \
+    libVC1DecDsp_skel \
+    libapps_mem_heap \
+    libcamera_nn_skel \
+    libcvpdsp_skel \
+    libdirac-capiv2 \
+    libdspCV_skel \
+    libdsp_streamer_add_constant \
+    libdsp_streamer_binning \
+    libdsp_streamer_skel \
+    libfastcvadsp \
+    libfastcvdsp_skel \
+    libhexagon_nn_skel \
+    libhexagon_nn_skel_secondary \
+    libscveBlobDescriptor_skel \
+    libscveObjectSegmentation_skel \
+    libscveT2T_skel \
+    libsns_device_mode_skel \
+    libsns_low_lat_stream_skel \
     android.hardware.sensors@2.0-service \
     sensors.qti \
     thermal-engine
